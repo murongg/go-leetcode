@@ -1,10 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"leetcode/easy"
 )
 
 func main() {
-	fmt.Println(easy.RomanToInt("IV"))
+	easy.SearchInsert([]int{1, 3, 5, 6}, 7)
 }
