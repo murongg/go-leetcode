@@ -1,4 +1,4 @@
-package easy
+package medium
 
 // 189. 旋转数组
 // 先将整个数组反转
