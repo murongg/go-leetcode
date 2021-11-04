@@ -1,10 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"leetcode/easy"
-)
+import "leetcode/bytedance"
 
 func main() {
-	fmt.Println(easy.TwoSum2([]int{2, 3, 4}, 6))
+	// fmt.Println(bytedance.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
+	bytedance.LongestCommonPrefix([]string{"flower", "flow", "flight"})
 }
