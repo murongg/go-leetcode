@@ -1,6 +1,6 @@
 package bytedance
 
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func MergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	// 虚拟链表
 	dummy := new(ListNode)
 	// 当前节点，指针指向头部

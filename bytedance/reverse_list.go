@@ -14,7 +14,7 @@ type ListNode struct {
 	Next *ListNode
 }
 
-func reverseList(head *ListNode) *ListNode {
+func ReverseList(head *ListNode) *ListNode {
 	// 保存个空节点，这是即将返回的节点
 	var prev *ListNode
 	// 当前节点
